@@ -56,3 +56,8 @@ Additional Features-
 3. Air friction is present which reduces the speed in mid air.
 4. Gravity is present.
 5. The user/player only gets a limited number of shots to collect the gold coins.
+6. 
+
+Libraries To Be installed before running- 
+1. GLAD
+2. GLFW
