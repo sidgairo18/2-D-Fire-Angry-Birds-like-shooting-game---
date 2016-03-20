@@ -1,0 +1,54 @@
+﻿Instructions to Play the Game
+
+Contents of the Folder-
+
+1. exe – the compiled executable.
+2. game.cpp – the complete code for the 2-d shooting game.
+3. Makefile – which is the make file.
+
+How to Run-
+1. Run the command on terminal ./exe to start the game.
+2. To compile the code run `make`.
+
+How to Play-
+
+1. The basic aim of the game is to collect all the golden coins (5 in total).
+2. There are obstacles which hinder the player from collecting the points.
+3. The obstacles are in the form of boxes and a rotating square which stops the cannon ball from reaching the coins.
+4. The player gets 4 cannon balls to shoot.
+5. The lesser the number of chances the player takes to collect all the coins the greater will be the score.
+6. Also each coin has a different score according to its difficulty.
+
+Game Controls-
+
+1. The user can control the direction and power of the cannon ball using both mouse and keyboard.
+
+Keyboard Controls
+
+KEY                    		ACTION
+
+A 				Tilt the cannon above.
+B				Tilt the cannon below.
+F				Increase the speed of firing.
+S				Decrease the speed of firing.
+Left Arrow Key    	Pan Scene towards left.
+Right Arrow Key    	Pan Scene towards right.
+Up Arrow Key		Zoom In
+Down Arrow Key		Zoom out
+R				Reload
+
+Mouse Controls
+
+1. The position where the user clicks is used to decide the direction and speed of the shot.
+2. Scroll in to Zoom in.
+3. Scroll out to Zoom out.
+4. Press Left Mouse Button to fire the cannon ball from the cannon.
+5. Press the Right Mouse Button and then move the mouse in the direction(left/right) you want to Pan.
+
+Additional Features-
+
+1. Rotating Block which acts as a hinderance to collect the coins.
+2. Wooden blocks which can collide with the cannon ball and follow Newton's Laws on collission.
+3. Air friction is present which reduces the speed in mid air.
+4. Gravity is present.
+5. The user/player only gets a limited number of shots to collect the gold coins.
